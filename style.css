@@ -1,71 +1,102 @@
 *,
 *::after,
 *::before {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 section {
-    background: lightgray;
-    width: 60%;
-    margin: 150px auto 0;
-    border: solid 3px black;
+  background: lightgray;
+  max-width: 1000px;
+  width: 80%;
+  margin: 150px auto 0;
+  border: solid 3px black;
 }
 
 .header {
-    padding: 25px 0px;
-    text-transform: uppercase;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
-    text-align: center;
-    text-decoration: underline;
+  padding: 25px 0px;
+  text-transform: uppercase;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
 }
 
 .champ-container {
-    display: flex;
+  display: flex;
 }
 
-.left, .middle, .right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 33%;
-    height: 350px;
+.left,
+.middle,
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 33%;
+  height: 350px;
 }
 
 h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 22px;
-    margin-bottom: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 22px;
+  margin-bottom: 10px;
 }
 
 .img {
-    width: 150px;
-    height: 150px;
-    border: solid 1px black;
+  width: 150px;
+  height: 150px;
+  border: solid 1px black;
 }
 
 img {
-    width: 150px;
-    height: 150px;
+  width: 150px;
+  height: 150px;
 }
 
 .name {
-    height: 25px;
-    margin-top: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
+  height: 25px;
+  margin-top: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
 }
 
 .footer {
-    text-align: center;
+  text-align: center;
 }
 
 button {
-    margin-bottom: 30px;
-    padding: 15px 10px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
+  margin-bottom: 30px;
+  padding: 15px 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+
+/*-------------------------------------------------------------------------------*/
+/*------------------------------Media Queries------------------------------------*/
+/*-------------------------------------------------------------------------------*/
+
+@media all and (max-width: 810px) {
+  section {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .champ-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .left,
+  .middle,
+  .right {
+    height: 220px;
+    margin-bottom: 25px;
+  }
+  .header {
+    font-size: 25px;
+  }
 }

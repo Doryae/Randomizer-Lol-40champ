@@ -243,6 +243,277 @@
       "lanes": {
         "first": "Jungle"
       }
+    },
+    {
+      "id": 29,
+      "name": "Evelynn",
+      "image": "./ress/img/evelynn.png",
+      "lanes": {
+        "first": "Jungle"
+      }
+    },
+    {
+      "id": 30,
+      "name": "Ezreal",
+      "image": "./ress/img/ezreal.png",
+      "lanes": {
+        "first": "Adc",
+        "second": "Mid"
+      }
+    },
+    {
+      "id": 31,
+      "name": "Fiddlesticks",
+      "image": "./ress/img/fiddlesticks.png",
+      "lanes": {
+        "first": "Jungle"
+      }
+    },
+    {
+      "id": 32,
+      "name": "Fiora",
+      "image": "./ress/img/fiora.png",
+      "lanes": {
+        "first": "Top"
+      }
+    },
+    {
+      "id": 33,
+      "name": "Fizz",
+      "image": "./ress/img/fizz.png",
+      "lanes": {
+        "first": "Mid"
+      }
+    },
+    {
+      "id": 34,
+      "name": "Galio",
+      "image": "./ress/img/galio.png",
+      "lanes": {
+        "first": "Mid",
+        "second": "Support"
+      }
+    },
+    {
+      "id": 35,
+      "name": "GangPlank",
+      "image": "./ress/img/gangplank.png",
+      "lanes": {
+        "first": "Top",
+        "second": "Mid"
+      }
+    },
+    {
+      "id": 36,
+      "name": "Garen",
+      "image": "./ress/img/garen.png",
+      "lanes": {
+        "first": "Top"
+      }
+    },
+    {
+      "id": 37,
+      "name": "Gnar",
+      "image": "./ress/img/gnar.png",
+      "lanes": {
+        "first": "Top"
+      }
+    },
+    {
+      "id": 38,
+      "name": "Gragas",
+      "image": "./ress/img/gragas.png",
+      "lanes": {
+        "first": "Top",
+        "second": "Support",
+        "third": "Jungle"
+      }
+    },
+    {
+      "id": 39,
+      "name": "Graves",
+      "image": "./ress/img/graves.png",
+      "lanes": {
+        "first": "Jungle",
+        "second": "Top"
+      }
+    },
+    {
+      "id": 40,
+      "name": "Gwen",
+      "image": "./ress/img/gwen.png",
+      "lanes": {
+        "first": "Top"
+      }
+    },
+    {
+      "id": 41,
+      "name": "Hecarim",
+      "image": "./ress/img/hecarim.png",
+      "lanes": {
+        "first": "Jungle"
+      }
+    },
+    {
+      "id": 42,
+      "name": "Heimerdinger",
+      "image": "./ress/img/heimerdinger.png",
+      "lanes": {
+        "first": "Top",
+        "second": "Mid",
+        "third": "Adc"
+      }
+    },
+    {
+      "id": 43,
+      "name": "Illaoi",
+      "image": "./ress/img/illaoi.png",
+      "lanes": {
+        "first": "Top"
+      }
+    },
+    {
+      "id": 44,
+      "name": "Irelia",
+      "image": "./ress/img/irelia.png",
+      "lanes": {
+        "first": "Mid",
+        "second": "Top"
+      }
+    },
+    {
+      "id": 45,
+      "name": "Ivern",
+      "image": "./ress/img/ivern.png",
+      "lanes": {
+        "first": "Jungle"
+      }
+    },
+    {
+      "id": 46,
+      "name": "Janna",
+      "image": "./ress/img/janna.png",
+      "lanes": {
+        "first": "Support"
+      }
+    },
+    {
+      "id": 47,
+      "name": "Jarvan IV",
+      "image": "./ress/img/jarvan-iv.png",
+      "lanes": {
+        "first": "Jungle",
+        "second": "Top"
+      }
+    },
+    {
+      "id": 48,
+      "name": "Jax",
+      "image": "./ress/img/jax.png",
+      "lanes": {
+        "first": "Top",
+        "second": "Jungle"
+      }
+    },
+    {
+      "id": 49,
+      "name": "Jayce",
+      "image": "./ress/img/jayce.png",
+      "lanes": {
+        "first": "Top",
+        "second": "Mid"
+      }
+    },
+    {
+      "id": 50,
+      "name": "Jihn",
+      "image": "./ress/img/jihn.png",
+      "lanes": {
+        "first": "Adc"
+      }
+    },
+    {
+      "id": 51,
+      "name": "Jinx",
+      "image": "./ress/img/jinx.png",
+      "lanes": {
+        "first": "Adc"
+      }
+    },
+    {
+      "id": 52,
+      "name": "Kai'sa",
+      "image": "./ress/img/kai'sa.png",
+      "lanes": {
+        "first": "Adc"
+      }
+    },
+    {
+      "id": 53,
+      "name": "Kalista",
+      "image": "./ress/img/kalista.png",
+      "lanes": {
+        "first": "Adc"
+      }
+    },
+    {
+      "id": 54,
+      "name": "Karma",
+      "image": "./ress/img/karma.png",
+      "lanes": {
+        "first": "Support",
+        "second": "Mid"
+      }
+    },
+    {
+      "id": 55,
+      "name": "Karthus",
+      "image": "./ress/img/karthus.png",
+      "lanes": {
+        "first": "Jungle",
+        "second": "Mid"
+      }
+    },
+    {
+      "id": 56,
+      "name": "Kassadin",
+      "image": "./ress/img/kassadin.png",
+      "lanes": {
+        "first": "Mid"
+      }
+    },
+    {
+      "id": 57,
+      "name": "Katarina",
+      "image": "./ress/img/katarina.png",
+      "lanes": {
+        "first": "Mid"
+      }
+    },
+    {
+      "id": 58,
+      "name": "Kayle",
+      "image": "./ress/img/kayle.png",
+      "lanes": {
+        "first": "Top",
+        "second": "Mid"
+      }
+    },
+    {
+      "id": 59,
+      "name": "Kayn",
+      "image": "./ress/img/kayn.png",
+      "lanes": {
+        "first": "Jungle"
+      }
+    },
+    {
+      "id": 60,
+      "name": "Kennen",
+      "image": "./ress/img/kennen.png",
+      "lanes": {
+        "first": "Top"
+      }
     }
   ]
 }

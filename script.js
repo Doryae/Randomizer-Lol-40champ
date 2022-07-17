@@ -25,10 +25,23 @@ fetch('./data/data.json')
       champName[0].textContent = data.champions[num1].name
       champName[1].textContent = data.champions[num2].name
       champName[2].textContent = data.champions[num3].name
-      //image
+      //image src
       img[0].setAttribute('src', `${data.champions[num1].image}`)
       img[1].setAttribute('src', `${data.champions[num2].image}`)
       img[2].setAttribute('src', `${data.champions[num3].image}`)
+      //image alt
+      img[0].setAttribute(
+        'alt',
+        `${data.champions[num1].name}, Champions de League of Legends.`
+      )
+      img[1].setAttribute(
+        'alt',
+        `${data.champions[num2].name}, Champions de League of Legends.`
+      )
+      img[2].setAttribute(
+        'alt',
+        `${data.champions[num3].name}, Champions de League of Legends.`
+      )
       //Lane
       const lanesChampionOne = data.champions[num1].lanes
       const lanesChampionTwo = data.champions[num2].lanes
